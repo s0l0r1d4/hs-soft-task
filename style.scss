@@ -1,0 +1,17 @@
+body{
+overflow-x: hidden;
+}
+h1{
+    margin: 1rem;
+}
+ul{
+list-style: none;
+}
+.countries-grid{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+grid-gap: 1rem;
+}
+.continent-line{
+    margin: 5rem 0;
+}
